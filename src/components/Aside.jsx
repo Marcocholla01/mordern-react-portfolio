@@ -1,5 +1,11 @@
 import React from "react";
-import { GiCalendar, GiClawSlashes, GiMailbox, GiPhone } from "react-icons/gi";
+import {
+  GiCalendar,
+  GiClawSlashes,
+  GiMailbox,
+  GiMayanPyramid,
+  GiPhone,
+} from "react-icons/gi";
 
 const Aside = () => {
   return (
@@ -47,7 +53,7 @@ const Aside = () => {
             </div>
             <div className="contact-info">
               <p className="contact-title">Phone</p>
-              <a className="contact-link" href="tel:+254-742-275-513">
+              <a className="contact-link" href="tel:+254742275513">
                 +254-742-275-513
               </a>
             </div>
@@ -58,12 +64,14 @@ const Aside = () => {
             </div>
             <div className="contact-info">
               <p className="contact-title">Birthday</p>
-              <time dateTime="2000-11-15">15th Nov 2000</time>
+              <time dateTime="2000-11-15">
+                15<sup>th</sup> Nov 2000
+              </time>
             </div>
           </li>
           <li className="contact-item">
             <div className="icon-box">
-              <GiMailbox />
+              <GiMayanPyramid />
             </div>
             <div className="contact-info">
               <p className="contact-title">Location</p>
