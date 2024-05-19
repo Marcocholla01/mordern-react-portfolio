@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBookReader } from "react-icons/fa";
+import { FaBookmark, FaBookReader } from "react-icons/fa";
 import TimelineItems from "../components/TimelineItems";
 
 const Resume = () => {
@@ -40,6 +40,31 @@ const Resume = () => {
             title="Victory Academy Center"
             date="2005 - 2008"
             description="From pre-school - std 2"
+          />
+        </ol>
+      </div>
+      <div className="timeline">
+        <div className="title-wrapper">
+          <div className="icon-box">
+            <FaBookmark />
+          </div>
+          <h3 className="h3">Experience</h3>
+        </div>
+        <ol className="timeline-list">
+          <TimelineItems
+            title="Web development"
+            date="2022 - Present"
+            description="Collaborating with other students in developng web applications at <strong> WicodeZU Zetech University club</strong>"
+          />
+          <TimelineItems
+            title="Web development"
+            date="2021 - Present"
+            description="Developing various projects based on <strong>MERN Stack</strong> technologies for my personal development on <strong>Github</strong>"
+          />
+          <TimelineItems
+            title="Fullstack web development"
+            date="Jan 2024 - April 2024"
+            description="Developing <strong>ShopO</strong> project based on <strong>MERN Stack</strong> technologies for my Final Year project<strong> Zetech University</strong>"
           />
         </ol>
       </div>
