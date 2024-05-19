@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Service from "../components/Service";
+import Testimonial from "../components/Testimonial";
 
 const About = () => {
   const servicesData = [
@@ -28,6 +29,17 @@ const About = () => {
         "I make high-quality photos of any category at a professional level.",
     },
   ];
+
+  const [testimonials, setTestimonials] = useState([]);
+
+  useEffect(() => {
+    fetch(`testimonials.json`)
+      .then((res) => res.json())
+      .then((data) => {
+        // console.log(data);
+        setTestimonials(data);
+      });
+  }, []);
 
   return (
     <div className="about active">
@@ -62,6 +74,21 @@ const About = () => {
               title={service.title}
               icon={service.icon}
               description={service.description}
+            />
+          ))}
+        </ul>
+      </section>
+
+      {/* Testimonial section */}
+      <section className="testimonials">
+        <h3 className="h3 testimonials-title">Testimonials</h3>
+        <ul className="testimonials-list has-scrollbar">
+          {testimonials.map((testimonial, index) => (
+            <Testimonial
+              key={index}
+              name={testimonial.name}
+              avatar={testimonial.avatar}
+              testimonial={testimonial.testimonial}
             />
           ))}
         </ul>
