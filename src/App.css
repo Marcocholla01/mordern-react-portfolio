@@ -1545,6 +1545,41 @@ textarea.form-input::-webkit-resizer {
     padding: 25px;
   }
 
+  /*-----------------------------------*\
+  #PAGINATION STYLE
+\*-----------------------------------*/
+  .pagination {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .page-item {
+    margin: 0 5px;
+  }
+  .page-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .page-link:hover {
+    background: #919090;
+  }
+
+  .page-item.disabled .page-link {
+    background: #ddd;
+    color: #999;
+    cursor: not-allowed;
+  }
+
   /**
    * #CONTACT
    */
