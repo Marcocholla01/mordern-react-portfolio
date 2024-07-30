@@ -153,6 +153,8 @@ html {
 
 body {
   background: var(--smoky-black);
+  justify-content: center;
+  align-items: center;
 }
 
 /*-----------------------------------*\
@@ -1963,4 +1965,29 @@ textarea.form-input::-webkit-resizer {
   .timeline-text {
     max-width: 700px;
   }
+}
+
+/* Not Found */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background: var(--eerie-black-2);
+  text-align: center;
+  width: 500px;
+  border-radius: 20px;
+}
+
+.not-found-title {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.not-found-message {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
 }

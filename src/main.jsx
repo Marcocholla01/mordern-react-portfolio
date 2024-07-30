@@ -8,6 +8,7 @@ import Resume from "./pages/Resume.jsx";
 import Portfolio from "./pages/Portfolio.jsx";
 import Blog from "./pages/Blog.jsx";
 import Contact from "./pages/Contact.jsx";
+import NotFound from "./pages/NotFound.jsx";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
     ],
+  },
+  {
+    path: "*",
+    element: <NotFound />,
   },
 ]);
 

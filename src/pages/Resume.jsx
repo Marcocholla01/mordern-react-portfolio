@@ -2,6 +2,7 @@ import React from "react";
 import { FaBookmark, FaBookReader } from "react-icons/fa";
 import TimelineItems from "../components/TimelineItems";
 import SkillsItems from "../components/SkillsItems";
+import DownloadResume from "../components/DownloadResume";
 
 const Resume = () => {
   return (
@@ -9,6 +10,7 @@ const Resume = () => {
       <header>
         <h2 className="h2 article-title">Resume</h2>
       </header>
+      <DownloadResume />
       {/* Edication */}
       <div className="timeline">
         <div className="title-wrapper">
@@ -77,9 +79,9 @@ const Resume = () => {
         <h3 className="h3 skills-title">My Skills</h3>
         <ul className="skill-list content-card">
           <SkillsItems title="Web Design" value={60} />
-          {/* <SkillsItems title="React" value={80} />
+          <SkillsItems title="React" value={80} />
           <SkillsItems title="Mongo DB" value={70} />
-          <SkillsItems title="Web Design" value={60} /> */}
+          <SkillsItems title="Web Design" value={60} />
           <SkillsItems title="Front-end Development" value={80} />
           <SkillsItems title="Back-end Development" value={93} />
           <SkillsItems title="IT Support" value={90} />

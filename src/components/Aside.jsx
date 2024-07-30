@@ -2,10 +2,12 @@ import React from "react";
 import {
   GiCalendar,
   GiClawSlashes,
+  GiDoorWatcher,
   GiMailbox,
   GiMayanPyramid,
   GiPhone,
 } from "react-icons/gi";
+import me from "../assets/me2.png";
 
 const Aside = () => {
   return (
@@ -14,11 +16,7 @@ const Aside = () => {
         <figure className="avatar-box">
           {/* <img src="images/mamun.jpg" alt="profile-image" width="80" /> */}
 
-          <img
-            src="https://marcocholla001.onrender.com/static/media/me2.24fe524e008531584475.png"
-            alt="profile-image"
-            width="100"
-          />
+          <img src={me} alt="profile-image" width="100" />
         </figure>
         <div className="info-content">
           <h1 className="name">Paul O. Ocholla</h1>

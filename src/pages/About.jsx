@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Service from "../components/Service";
 import Testimonial from "../components/Testimonial";
 import Clients from "../components/Clients";
+import DownloadResume from "../components/DownloadResume";
 
 const About = () => {
   const servicesData = [
@@ -53,7 +54,10 @@ const About = () => {
   }, []);
   return (
     <div className="about active">
-      <header className="h2 article-title">About Me</header>
+      <header>
+        <h2 className="h2 article-title">About</h2>{" "}
+      </header>
+      <DownloadResume />
       <section className="about-text">
         <p>
           Hello, I'm Paul, a dedicated BSCIT student at Zetech University, where
@@ -107,7 +111,7 @@ const About = () => {
       <section className="clients">
         <h3 className="h3 clients-title">Clients</h3>
         <ul className="clients-list has-scrollbar">
-          {clients.map((client, index) =>  (
+          {clients.map((client, index) => (
             <Clients key={index} logo={client.logo} link={client.link} />
           ))}
         </ul>
