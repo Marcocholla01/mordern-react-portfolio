@@ -24,12 +24,7 @@ const About = () => {
       description:
         "Professional development of applications for iOS and Android.",
     },
-    {
-      title: "Photography",
-      icon: "/images/icon-photo.svg",
-      description:
-        "I make high-quality photos of any category at a professional level.",
-    },
+
   ];
 
   const [testimonials, setTestimonials] = useState([]);
