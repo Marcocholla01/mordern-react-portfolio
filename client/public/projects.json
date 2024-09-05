@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "I-Chat-App",
+    "category": "Web development",
+    "image": "https://github.com/Marcocholla01/i-chat/raw/main/client/public/images/ui/image-2.png",
+    "demoLink": "https://i-chat-app-iyj7.onrender.com",
+    "sourCode": "https://github.com/Marcocholla01/i-chat"
+  },
+  {
+    "id": 2,
+    "title": "Auth-it",
+    "category": "Web development",
+    "image": "images/Screenshot 2024-09-05 212242.png",
+    "demoLink": "https://auth-it.onrender.com",
+    "sourCode": "https://github.com/Marcocholla01/Express-Auth-app"
+  },
+  {
+    "id": 3,
+    "title": "ShopO",
+    "category": "Web design",
+    "image": "https://github.com/Marcocholla01/e-Shop/raw/main/client/src/assets/images/shopScreenShots/homepage.png",
+    "demoLink": "https://shop0-bice.vercel.app",
+    "sourCode": "https://github.com/Marcocholla01/e-Shop"
+  },
+  {
+    "id": 4,
+    "title": "Portfolio",
+    "category": "Applications",
+    "image": "images/Screenshot (43).png",
+    "demoLink": "https://marcocholla001.onrender.com/",
+    "sourCode": "https://github.com/Marcocholla01/paul"
+  },
+  {
+    "id": 5,
+    "title": "Expense Tracker",
+    "category": "Web design",
+    "image": "images/Screenshot 2024-09-05 223648.png",
+    "demoLink": "",
+    "sourCode": "https://github.com/Marcocholla01/Expense-tracker"
+  },
+  {
+    "id": 6,
+    "title": "Iconnect",
+    "category": "Web design",
+    "image": "images/iconnect.png",
+    "demoLink": "https://iconnect-weld.vercel.app",
+    "sourCode": "https://github.com/Marcocholla01/iconnect"
+  }
+]
