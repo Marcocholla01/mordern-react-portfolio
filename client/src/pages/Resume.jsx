@@ -22,7 +22,7 @@ const Resume = () => {
         <ol className="timeline-list">
           <TimelineItems
             title="Zetech University"
-            date="2020 - Present"
+            date="2020 - 8<sup>th</sup> Nov, 2024"
             description="Bachelor of Science in Information Technology"
           />
           <TimelineItems
