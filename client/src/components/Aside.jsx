@@ -31,7 +31,7 @@ const Aside = () => {
         </figure>
         <div className="info-content">
           <h1 className="name">Paul O. Ocholla</h1>
-          <p className="title">Junior Front-End Engineer</p>
+          <p className="title">Full stack & Wordpress Developer</p>
         </div>
         <button className="info_more-btn">
           <span>Show Contacts</span>
@@ -90,10 +90,10 @@ const Aside = () => {
         </ul>
       </div>
 
-      <div>
+      {/* <div>
         <button onClick={handleSuccess}>Show Success Toast</button>
         <button onClick={handleError}>Show Error Toast</button>
-      </div>
+      </div> */}
     </aside>
   );
 };

@@ -57,9 +57,14 @@ const Resume = () => {
         </div>
         <ol className="timeline-list">
           <TimelineItems
-            title="Web development"
+            title="Wordpress & Full stack Developer"
             date="2022 - Present"
-            description="Collaborating with other students in developng web applications at <strong> WicodeZU Zetech University club</strong>"
+            description="Collaborating with other students in developing web applications at <strong> WicodeZU Zetech University club</strong>"
+          />
+          <TimelineItems
+            title="Wordpress & Backend developer"
+            date="Aug, 2024 - Oct, 2024 (Attachee)"
+            description="Become a Theme Designer, Plugin & Python (Flask) backend Developer at  <strong>Context Expert Agencies in Ruiru</strong>"
           />
           <TimelineItems
             title="Web development"
@@ -79,9 +84,9 @@ const Resume = () => {
         <h3 className="h3 skills-title">My Skills</h3>
         <ul className="skill-list content-card">
           <SkillsItems title="Web Design" value={60} />
+          <SkillsItems title="Wordpress Development" value={72} />
           <SkillsItems title="React" value={80} />
           <SkillsItems title="Mongo DB" value={70} />
-          <SkillsItems title="Web Design" value={60} />
           <SkillsItems title="Front-end Development" value={80} />
           <SkillsItems title="Back-end Development" value={93} />
           <SkillsItems title="IT Support" value={90} />

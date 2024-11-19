@@ -3,6 +3,7 @@ import Service from "../components/Service";
 import Testimonial from "../components/Testimonial";
 import Clients from "../components/Clients";
 import DownloadResume from "../components/DownloadResume";
+import Techstack from "../components/Techstack";
 
 const About = () => {
   const servicesData = [
@@ -24,7 +25,12 @@ const About = () => {
       description:
         "Professional development of applications for iOS and Android.",
     },
-
+    {
+      title: "WordPress Development",
+      icon: "/images/icon-wordpress.svg",
+      description:
+        "Creating custom themes, plugins, and scalable websites tailored to your business needs.",
+    },
   ];
 
   const [testimonials, setTestimonials] = useState([]);
@@ -55,23 +61,36 @@ const About = () => {
       <DownloadResume />
       <section className="about-text">
         <p>
-          Hello, I'm Paul, a dedicated BSCIT student at Zetech University, where
-          I am passionately immersing myself in the world of technology. As a
-          Junior MERN stack developer, I channel my enthusiasm into creating
-          dynamic and efficient web applications. My journey in the realm of IT
-          is driven by an insatiable curiosity and a commitment to continuous
-          learning.
+          Hello, I'm Paul — a passionate web and WordPress developer with a
+          solid BSc in Information Technology from Zetech University. With
+          hands-on experience in creating dynamic, user-friendly web
+          applications and customizing WordPress themes and plugins, I bring
+          expertise in HTML, CSS, JavaScript, Python, Golang, Nodejs, React,
+          Vue.js, Expressjs, TailwindCSS, WordPress development, and PHP.
         </p>
+
         <p>
-          In the ever-evolving landscape of technology, I find joy in the
-          challenges of being a MERN stack developer—navigating MongoDB,
-          Express.js, React, and Node.js to craft seamless user experiences.
-          Beyond the code, I bring a personalized touch to my work, infusing
-          projects with precision and creativity. Join me as I embark on this
-          exciting journey, where each line of code contributes to the narrative
-          of my growth as a developer. Let's build tomorrow's digital landscapes
-          together!
+          As a web developer, I’ve navigated the intricacies of SEO strategies,
+          Google Analytics, and email marketing tools to drive audience
+          engagement and content promotion across digital platforms. I also have
+          experience in database management, including MySQL, PostgreSQL,
+          MongoDB, and Firebase, ensuring seamless data handling and
+          integration.
         </p>
+
+        <p>
+          With a keen eye for detail and a commitment to creating
+          precision-engineered code, I approach every project with creativity
+          and a user-centered mindset. Whether it's building custom WordPress
+          plugins, crafting responsive web designs, or optimizing user
+          experiences, my goal is to deliver high-quality digital solutions that
+          meet client needs and exceed expectations. <br /> <br /> Let's connect
+          and collaborate on building impactful web projects that bring ideas to
+          life!
+        </p>
+      </section>
+      <section className="service">
+        <Techstack />
       </section>
       {/* services */}
       <section className="service">

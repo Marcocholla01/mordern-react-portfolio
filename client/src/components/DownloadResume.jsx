@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../assets/Paul-Ouma-Ocholla-Resume.pdf";
+import resume from "../assets/Paul-Ouma-Ocholla web-wordpress-dev-Resume.pdf";
 
 const DownloadResume = () => {
   const handleDownload = () => {
